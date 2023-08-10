@@ -5,20 +5,23 @@ using UnityEngine.Video;
 
 public class Timer : MonoBehaviour
 {
-    public GameObject Cube;
+    public GameObject Text2;
     public GameObject Text;
-    /*public VideoPlayer video;*/
 
     void Start()
     {
-        Invoke("Disappear", 5f);
+        Invoke("Disappear", 3f);
+        Invoke("end", 5f);
     }
 
     void Disappear()
     {
         Text.SetActive(false);
-        Cube.SetActive(true);
-    /*    video.Play();*/
+        
+    }
+    void end()
+    {
+        Text2.SetActive(true);
     }
 
 }

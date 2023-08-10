@@ -71,4 +71,16 @@ public class ChangeScenes : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(7);
     }
+    public void Tempo()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(9);
+    }
+    public void Music()
+    {
+        Application.OpenURL("https://www.youtube.com/watch?v=mfWp3c-MpVU&ab_channel=tirochannal");
+    }
+    public void map()
+    {
+        Application.OpenURL("http://report.aedworld.com.tw/AED/AED_IOSMap.aspx");
+    }
 }

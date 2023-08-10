@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
-public class changescene : MonoBehaviour
+public class scene7end : MonoBehaviour
 {
     public double time;
     public double ctime;
     private bool videoplay = true;
     public VideoPlayer Video;
     public GameObject cube;
+    public GameObject panel;
+
     private void Awake()
     {
         time = Video.GetComponent<VideoPlayer>().clip.length;
@@ -18,7 +20,7 @@ public class changescene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(cube.gameObject.activeSelf == true)
+        if (cube.gameObject.activeSelf == true)
         {
             ctime += Time.deltaTime;
             if (ctime >= time)
@@ -26,10 +28,10 @@ public class changescene : MonoBehaviour
                 videoplay = false;
             }
         }
-        
+
         if (videoplay == false)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene(8);
+            panel.SetActive(true);
         }
     }
 }
