@@ -1,4 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 
 public class Oscillogram : MonoBehaviour
@@ -8,7 +11,6 @@ public class Oscillogram : MonoBehaviour
     [SerializeField] [Min(0)] [Tooltip("每分鐘跳動次數")] int frequency;
     [SerializeField] [Tooltip("跳動時施加的力")] float amplitude;
     [SerializeField] UnityEvent beatEvent;
-
     float lastTime;
 
     void FixedUpdate()
