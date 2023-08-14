@@ -8,7 +8,7 @@ public class Oscillogram : MonoBehaviour
 {
     [SerializeField] new ParticleSystem particleSystem;
     [SerializeField] new Rigidbody rigidbody;
-    [SerializeField] [Min(0)] [Tooltip("每分鐘跳動次數")] int frequency;
+    int frequency = 100;
     [SerializeField] [Tooltip("跳動時施加的力")] float amplitude;
     [SerializeField] UnityEvent beatEvent;
     float lastTime;
@@ -17,7 +17,6 @@ public class Oscillogram : MonoBehaviour
     {
         particleSystem.Emit(1);
         particleSystem.Simulate(Time.fixedDeltaTime, true, false);
-
         if (Time.fixedTime - lastTime > 60.0f / frequency)
         {
             beatEvent.Invoke();

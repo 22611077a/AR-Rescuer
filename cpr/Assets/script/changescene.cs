@@ -8,8 +8,10 @@ public class changescene : MonoBehaviour
     public double time;
     public double ctime;
     private bool videoplay = true;
-    public VideoPlayer Video;
+    public VideoPlayer Video;    
     public GameObject cube;
+    public VideoPlayer tempo;
+    public GameObject cubetempo;
     private void Awake()
     {
         time = Video.GetComponent<VideoPlayer>().clip.length;
@@ -24,6 +26,11 @@ public class changescene : MonoBehaviour
             if (ctime >= time)
             {
                 videoplay = false;
+            }
+            if (ctime >= 18)
+            {
+                cubetempo.SetActive(true);
+                tempo.Play();
             }
         }
         
