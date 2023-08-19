@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <ImageTarget name="aed" size="1.000000 0.990991" />
+    <ImageTarget name="AED1" size="1.000000 0.898291" />
+    <ImageTarget name="6" size="1.000000 1.000000" />
   </Tracking>
 </QCARConfig>
