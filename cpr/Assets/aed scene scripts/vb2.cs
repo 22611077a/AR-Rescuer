@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 
-public class vb1 : MonoBehaviour
+public class vb2 : MonoBehaviour
 {
     public GameObject cube;
     public GameObject cube1;
