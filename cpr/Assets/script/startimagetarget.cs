@@ -12,7 +12,7 @@ public class startimagetarget : MonoBehaviour
 
     void Start()
     {
-        Invoke("image", 3f);
+        Invoke("image", 7f);
     }
 
     public void image()

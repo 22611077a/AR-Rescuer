@@ -7,11 +7,13 @@ public class changescene : MonoBehaviour
 {
     public double time;
     public double ctime;
+    public double btime;
     private bool videoplay = true;
     public VideoPlayer Video;    
     public GameObject cube;
     public VideoPlayer tempo;
     public GameObject cubetempo;
+    public GameObject text2;
     private void Awake()
     {
         time = Video.GetComponent<VideoPlayer>().clip.length;
@@ -21,20 +23,29 @@ public class changescene : MonoBehaviour
     void Update()
     {
         if(cube.gameObject.activeSelf == true)
+        {   
+            ctime += Time.deltaTime;         
+            if (ctime >= 20)
+            {
+                cubetempo.SetActive(true);
+                tempo.Play();               
+            }
+            if (ctime >= 32)
+            {
+                cube.SetActive(false);
+                text2.SetActive(true);
+            }
+        }
+        if (cubetempo.gameObject.activeSelf == true)
         {
-            ctime += Time.deltaTime;
-            if (ctime >= time)
+            btime += Time.deltaTime;
+            if (btime >= time)
             {
                 videoplay = false;
             }
-            if (ctime >= 18)
-            {
-                cubetempo.SetActive(true);
-                tempo.Play();
-            }
         }
-        
-        if (videoplay == false)
+
+            if (videoplay == false)
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene(8);
         }

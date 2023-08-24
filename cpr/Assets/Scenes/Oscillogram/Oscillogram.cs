@@ -8,7 +8,7 @@ public class Oscillogram : MonoBehaviour
 {
     [SerializeField] new ParticleSystem particleSystem;
     [SerializeField] new Rigidbody rigidbody;
-    int frequency = 100;
+    int frequency = 110;
     [SerializeField] [Tooltip("跳動時施加的力")] float amplitude;
     [SerializeField] UnityEvent beatEvent;
     float lastTime;
