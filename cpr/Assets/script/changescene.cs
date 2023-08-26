@@ -13,7 +13,7 @@ public class changescene : MonoBehaviour
     public GameObject cube;
     public VideoPlayer tempo;
     public GameObject cubetempo;
-    public GameObject text2;
+    public GameObject panel2;
     private void Awake()
     {
         time = Video.GetComponent<VideoPlayer>().clip.length;
@@ -33,7 +33,7 @@ public class changescene : MonoBehaviour
             if (ctime >= 32)
             {
                 cube.SetActive(false);
-                text2.SetActive(true);
+                panel2.SetActive(true);
             }
         }
         if (cubetempo.gameObject.activeSelf == true)

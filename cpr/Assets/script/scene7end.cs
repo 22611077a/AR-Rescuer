@@ -6,7 +6,7 @@ using UnityEngine.Video;
 public class scene7end : MonoBehaviour
 {
     public GameObject cube;
-    public GameObject panel;
+    public GameObject panel2;
     public GameObject Text3;
     public GameObject Text2;
     public GameObject Text1;
@@ -24,7 +24,7 @@ public class scene7end : MonoBehaviour
     void Disappear()
     {
         cube.SetActive(false);
-        panel.SetActive(true);
+        panel2.SetActive(true);
     }
     void three()
     {

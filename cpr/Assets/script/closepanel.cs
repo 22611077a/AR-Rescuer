@@ -5,7 +5,7 @@ using UnityEngine.Video;
 
 public class closepanel : MonoBehaviour
 {
-    public GameObject Panel;
+    public GameObject Panel1;
     public GameObject cube;
     public VideoPlayer video;
 
@@ -16,7 +16,7 @@ public class closepanel : MonoBehaviour
 
     void Disappear()
     {
-        Panel.SetActive(false);
+        Panel1.SetActive(false);
         cube.SetActive(true);
         video.Play();
     }

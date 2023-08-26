@@ -5,8 +5,8 @@ using UnityEngine.Video;
 
 public class Timer : MonoBehaviour
 {
-    public GameObject Text;
-    public GameObject Text0;
+    public GameObject panel2;
+    public GameObject panal1;
     public GameObject Text3;
     public GameObject Text2;
     public GameObject Text1;
@@ -23,12 +23,12 @@ public class Timer : MonoBehaviour
 
     void Disappear()
     {
-        Text0.SetActive(false);
+        panal1.SetActive(false);
         
     }
     void end()
     {
-        Text.SetActive(true);
+        panel2.SetActive(true);
     }
     void three()
     {

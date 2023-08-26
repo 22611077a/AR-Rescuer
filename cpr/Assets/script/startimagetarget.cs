@@ -6,9 +6,9 @@ using UnityEngine.Video;
 public class startimagetarget : MonoBehaviour
 {
     public GameObject ImageTarget;
-    public GameObject Panel;
+    public GameObject Panel1;
     public GameObject cube;
-    public VideoPlayer video;
+    //public VideoPlayer video;
 
     void Start()
     {
@@ -17,14 +17,14 @@ public class startimagetarget : MonoBehaviour
 
     public void image()
     {
-        Panel.SetActive(false);
+        Panel1.SetActive(false);
         ImageTarget.SetActive(true);
     }
 
     public void target()
     {
         cube.SetActive(true);
-        video.Play();
+        //video.Play();
     }
 
 }
