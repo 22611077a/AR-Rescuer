@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &178394207
 RectTransform:
   m_ObjectHideFlags: 0
@@ -968,7 +968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Panel1: {fileID: 1996534816}
-  cube: {fileID: 1199511751}
+  cube: {fileID: 1602202701}
   video: {fileID: 343159188}
 --- !u!114 &528865309
 MonoBehaviour:
@@ -994,7 +994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb1f3fea6c517a4faae1bb77ba3fa99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 1199511751}
+  cube: {fileID: 1602202701}
   panel2: {fileID: 324350786}
   Text3: {fileID: 922067558}
   Text2: {fileID: 428202305}
@@ -1493,7 +1493,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1199511751
+--- !u!1 &994632767
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1501,22 +1501,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1199511753}
-  - component: {fileID: 1199511752}
+  - component: {fileID: 994632768}
+  - component: {fileID: 994632769}
   m_Layer: 0
-  m_Name: CGY_4K_UltraHD_Interface_1A
+  m_Name: "\u5F71\u7247\u6846"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!212 &1199511752
+  m_IsActive: 1
+--- !u!4 &994632768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994632767}
+  m_LocalRotation: {x: -0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 0.01335, y: -0.011829, z: 16}
+  m_LocalScale: {x: 0.15342593, y: 0.28882524, z: 35.197765}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1602202705}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &994632769
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1199511751}
+  m_GameObject: {fileID: 994632767}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1556,28 +1571,12 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 38.4, y: 21.6}
+  m_Size: {x: 6.74, y: 3.83}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1199511753
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1199511751}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.29, y: 6.86, z: 40.875}
-  m_LocalScale: {x: 6.658909, y: 6.829652, z: 0.10535409}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1602202705}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1513742333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,13 +1939,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602202701}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.043550674, y: 0.020498829, z: 1.4219741}
-  m_LocalScale: {x: 3.2622166, y: 1.7329116, z: 0.014219897}
+  m_LocalPosition: {x: -13, y: 7, z: 41.02481}
+  m_LocalScale: {x: 21.722803, y: 11.835183, z: 0.0014981243}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 343159187}
-  m_Father: {fileID: 1199511753}
-  m_RootOrder: 0
+  - {fileID: 994632768}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1898768542
 GameObject:
@@ -2253,7 +2253,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c39c6172233ac25499cb1ca004bcc9b6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a32e907d2d181c41bd1b8d6ff9e54f7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
