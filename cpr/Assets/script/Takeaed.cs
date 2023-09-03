@@ -5,13 +5,18 @@ using UnityEngine;
 public class Takeaed : MonoBehaviour
 {
     public GameObject running;
-    
+    public GameObject Button;
+
     public void openrunnung()
     {
         if (running != null)
         {
             running.SetActive(true);
         }
-       
+        if (Button != null)
+        {
+            Button.SetActive(true);
+        }
+
     }
 }
