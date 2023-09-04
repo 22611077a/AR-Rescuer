@@ -13,7 +13,7 @@ public class ChangeScenes : MonoBehaviour
 
     public void scene2next()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(10);
     }
     public void scene2back()
     {
@@ -21,59 +21,59 @@ public class ChangeScenes : MonoBehaviour
     }
     public void scene3Y()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(3);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(11);
     }
     public void scene3N()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(4);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(12);
     }
     public void scene3back()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(9);
     }
     public void scene4()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(10);
     }
     public void scene5next()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(5);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(13);
     }
     public void scene5back()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(10);
     }
     public void scene6Y()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(6);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(14);
     }
     public void scene6N()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(7);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(15);
     }
     public void scene6back()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(4);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(12);
     }
     public void scene7()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(5);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(13);
     }
     public void scene8next()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(8);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(16);
     }
     public void scene8back()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(5);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(13);
     }
     public void scene9back()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(7);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(15);
     }
     public void Tempo()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(9);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(17);
     }
     public void Music()
     {
