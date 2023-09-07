@@ -59,6 +59,7 @@ public class ChangeScenes : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(13);
     }
+
     public void scene8next()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(16);

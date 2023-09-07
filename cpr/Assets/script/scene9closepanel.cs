@@ -39,6 +39,7 @@ public class scene9closepanel : MonoBehaviour
     }
     void three()
     {
+        Panel2.SetActive(false);
         Text3.SetActive(true);
     }
     void two()

@@ -3,19 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
-public class scene7end : MonoBehaviour
+public class ARscene7 : MonoBehaviour
 {
     public GameObject cube;
-    public GameObject buttonfinish;
 
     void Start()
     {
         Invoke("Disappear", 48f);
+        Invoke("home", 52f);
     }
 
     void Disappear()
     {
         cube.SetActive(false);
-        buttonfinish.SetActive(true);
     }
+    void home()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
+
 }
