@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 
-public class mb : MonoBehaviour
+public class mb¥k : MonoBehaviour
 {
     public GameObject cube;
+    public GameObject cube1;
     void Start()
     {
-        cube.SetActive(false);
+        
     }
     private void OnMouseUpAsButton()
     {
         cube.SetActive(true);
+        cube1.SetActive(true);
     }
 }
