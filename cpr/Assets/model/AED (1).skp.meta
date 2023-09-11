@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 6d2b0fb9360febb48aecae5adf5e77fd
+guid: 9658c9beafd9898479a0081ce2234e2e
 SketchUpImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
   externalObjects: {}
   materials:
-    materialImportMode: 2
-    materialName: 2
+    materialImportMode: 1
+    materialName: 1
     materialSearch: 0
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -106,8 +106,8 @@ SketchUpImporter:
   assetBundleVariant: 
   generateBackFace: 1
   mergeCoplanarFaces: 0
-  selectedNodes: 0000000001000000
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000
   assetHash:
     serializedVersion: 2
-    Hash: 30695c0c8fc2695142ccb52bfff26a4e
+    Hash: ff93f003d38ce2658b3bc85b5cd89470
   fileUnit: 0

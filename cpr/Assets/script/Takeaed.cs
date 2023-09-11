@@ -6,6 +6,7 @@ public class Takeaed : MonoBehaviour
 {
     public GameObject running;
     public GameObject Button;
+    public GameObject Aed;
 
     public void openrunnung()
     {
@@ -16,6 +17,10 @@ public class Takeaed : MonoBehaviour
         if (Button != null)
         {
             Button.SetActive(true);
+        }
+        if (Aed != null)
+        {
+            Aed.SetActive(true);
         }
 
     }
