@@ -84,4 +84,8 @@ public class ChangeScenes : MonoBehaviour
     {
         Application.OpenURL("http://report.aedworld.com.tw/AED/AED_IOSMap.aspx");
     }
+    public void AED()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(18);
+    }
 }

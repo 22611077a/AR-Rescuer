@@ -47,7 +47,7 @@ public class changescene : MonoBehaviour
 
             if (videoplay == false)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene(8);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(14);
         }
     }
 }
