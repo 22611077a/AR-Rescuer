@@ -82,7 +82,7 @@ public class ChangeScenes : MonoBehaviour
     }
     public void map()
     {
-        Application.OpenURL("http://report.aedworld.com.tw/AED/AED_IOSMap.aspx");
+        Application.OpenURL("http://www.aedmap.com.tw/menu6/aedmap.html");
     }
     public void AED()
     {

@@ -7,7 +7,6 @@ public class scene9closepanel : MonoBehaviour
     public GameObject Panel;
     public GameObject Panel2;
     public GameObject plane;
-    public GameObject plane2;
     public GameObject Text3;
     public GameObject Text2;
     public GameObject Text1;
@@ -30,7 +29,6 @@ public class scene9closepanel : MonoBehaviour
     void end()
     {
         plane.SetActive(false);
-        plane2.SetActive(false);
         
     }
     void panal2()

@@ -120,7 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   voiceControl: {fileID: 319219626232841421}
   isClone: 0
-  next: next
+  next: continue
   before: before
   yes: yes
   no: no

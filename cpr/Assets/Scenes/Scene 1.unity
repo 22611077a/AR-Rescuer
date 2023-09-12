@@ -1405,6 +1405,11 @@ PrefabInstance:
       propertyPath: yesnoScene.Array.data[1]
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 319219626232841458, guid: 6100c7215d23ccf4c8c351f6652056b4,
+        type: 3}
+      propertyPath: language
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 319219626232841459, guid: 6100c7215d23ccf4c8c351f6652056b4,
         type: 3}
       propertyPath: m_RootOrder

@@ -7,7 +7,7 @@ public class ARscene4 : MonoBehaviour
 
     void Start()
     {
-        Invoke("home", 7f);
+        Invoke("home", 5f);
     }
 
     void home()
