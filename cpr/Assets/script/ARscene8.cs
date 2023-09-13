@@ -9,14 +9,14 @@ public class ARscene8 : MonoBehaviour
     public double ctime;
     public double btime;
     private bool videoplay = true;
-    public VideoPlayer Video;
     public GameObject cube;
     public VideoPlayer tempo;
     public GameObject cubetempo;
+    public GameObject panel;
     public GameObject panel2;
     private void Awake()
     {
-        time = Video.GetComponent<VideoPlayer>().clip.length;
+        time = tempo.GetComponent<VideoPlayer>().clip.length;
     }
 
     // Update is called once per frame
@@ -34,6 +34,7 @@ public class ARscene8 : MonoBehaviour
             {
                 cube.SetActive(false);
                 panel2.SetActive(true);
+                panel.SetActive(false);
             }
         }
         if (cubetempo.gameObject.activeSelf == true)
@@ -47,7 +48,7 @@ public class ARscene8 : MonoBehaviour
 
         if (videoplay == false)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene(14);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(9);
         }
     }
 }
