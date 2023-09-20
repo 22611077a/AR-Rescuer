@@ -8,7 +8,7 @@ public class ChangeScenes : MonoBehaviour
 {
     public void home()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(22);
     }
     public void version1()
     {
@@ -24,7 +24,7 @@ public class ChangeScenes : MonoBehaviour
     }
     public void scene1_2back()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(22);
     }
     public void scene2next()
     {

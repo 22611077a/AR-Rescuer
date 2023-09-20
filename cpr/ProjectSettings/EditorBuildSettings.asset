@@ -68,6 +68,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AEDscene.unity
     guid: cf2ce5dc48cd61a41ac799e1f1f5c390
+  - enabled: 1
+    path: Assets/Scenes/ar location.unity
+    guid: a123b7481b566c645a67187dc6585af1
+  - enabled: 1
+    path: Assets/Scenes/Scene0.unity
+    guid: 1927de4fe7a0e9145881f4020b9d3b28
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
