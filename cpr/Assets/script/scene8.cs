@@ -16,6 +16,7 @@ public class scene8 : MonoBehaviour
         Invoke("Disappear", 5f);
         Invoke("tempo1", 20f);
         Invoke("con", 32f);
+        Invoke("restart", 44f);
     }
     void Disappear()
     {
@@ -30,5 +31,9 @@ public class scene8 : MonoBehaviour
     {
         cube.SetActive(false);
         panel2.SetActive(true);
+    }
+    void restart()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(17);
     }
 }
