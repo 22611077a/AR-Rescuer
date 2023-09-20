@@ -95,9 +95,13 @@ public class ChangeScenes : MonoBehaviour
     {
         Application.OpenURL("https://www.youtube.com/watch?v=mfWp3c-MpVU&ab_channel=tirochannal");
     }
-    public void map()
+    /*public void map()
     {
         Application.OpenURL("http://www.aedmap.com.tw/menu6/aedmap.html");
+    }*/
+    public void map()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(21);
     }
     public void AED()
     {
