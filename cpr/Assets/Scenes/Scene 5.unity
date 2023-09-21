@@ -558,7 +558,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ebfb940e9c0d1754d95255a199b22708,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebfb940e9c0d1754d95255a199b22708, type: 3}
@@ -2038,7 +2038,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9658c9beafd9898479a0081ce2234e2e,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9658c9beafd9898479a0081ce2234e2e, type: 3}
@@ -2374,7 +2374,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1368805987}
-  m_Mesh: {fileID: 1885224758}
+  m_Mesh: {fileID: 1794973948}
 --- !u!1 &1473289332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2960,65 +2960,7 @@ RectTransform:
   m_AnchoredPosition: {x: 4, y: 0}
   m_SizeDelta: {x: 85, y: 94}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1826560312
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1826560314}
-  - component: {fileID: 1826560313}
-  m_Layer: 0
-  m_Name: Zappar Face Tracking Anchor 0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1826560313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826560312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6aaa77c67994b1444b718f22e0757d49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FaceTrackingTarget: {fileID: 2139770921}
-  OnSeenEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  OnNotSeenEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  AnchorId: 0
-  m_faceNumber: 0
---- !u!4 &1826560314
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826560312}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1085823866}
-  - {fileID: 889658494}
-  - {fileID: 830985880}
-  - {fileID: 1368805988}
-  - {fileID: 1293248611}
-  m_Father: {fileID: 2139770922}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &1885224758
+--- !u!43 &1794973948
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3182,6 +3124,64 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1826560312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1826560314}
+  - component: {fileID: 1826560313}
+  m_Layer: 0
+  m_Name: Zappar Face Tracking Anchor 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1826560313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826560312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aaa77c67994b1444b718f22e0757d49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FaceTrackingTarget: {fileID: 2139770921}
+  OnSeenEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnNotSeenEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  AnchorId: 0
+  m_faceNumber: 0
+--- !u!4 &1826560314
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826560312}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1085823866}
+  - {fileID: 889658494}
+  - {fileID: 830985880}
+  - {fileID: 1368805988}
+  - {fileID: 1293248611}
+  m_Father: {fileID: 2139770922}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2040368852
 GameObject:
   m_ObjectHideFlags: 0
@@ -4640,7 +4640,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d8d6d153d9115048a80803811688596,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1092408308860062549, guid: 5d8d6d153d9115048a80803811688596,
         type: 3}
