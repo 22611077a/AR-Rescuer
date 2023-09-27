@@ -63,7 +63,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene9.unity
     guid: cfa0ed45c86c2534185575799acf38bf
   - enabled: 1
-    path: Assets/Scenes/Oscillogram/Demo/Tempo.unity
+    path: Assets/Scenes/Oscillogram/Tempo.unity
     guid: 1dc4e781be5142c4aa6eb1c43f881547
   - enabled: 1
     path: Assets/Scenes/AEDscene.unity

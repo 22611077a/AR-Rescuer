@@ -34,6 +34,6 @@ public class ARscene8 : MonoBehaviour
     }
     void restart()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(8);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(9);
     }
 }

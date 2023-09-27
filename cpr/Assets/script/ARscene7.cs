@@ -19,7 +19,7 @@ public class ARscene7 : MonoBehaviour
     }
     void home()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(22);
     }
 
 }
