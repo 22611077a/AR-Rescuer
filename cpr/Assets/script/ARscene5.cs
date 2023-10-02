@@ -11,7 +11,8 @@ public class ARscene5 : MonoBehaviour
     void Start()
     {
         Invoke("call119", 2f);
-        Invoke("aed", 4f);
+        Invoke("aed", 4f); 
+        Invoke("end", 6f);
     }
     void call119()
     {
@@ -21,5 +22,9 @@ public class ARscene5 : MonoBehaviour
     {
         running.SetActive(true);
         Aed.SetActive(true);
+    }
+    void end()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(6);
     }
 }

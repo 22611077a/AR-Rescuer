@@ -12,6 +12,6 @@ public class ARscene4 : MonoBehaviour
 
     void home()
     {
-       UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+       UnityEngine.SceneManagement.SceneManager.LoadScene(22);
     }
 }

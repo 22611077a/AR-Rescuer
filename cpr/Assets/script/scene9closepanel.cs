@@ -52,7 +52,7 @@ public class scene9closepanel : MonoBehaviour
     }
     void home()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(22);
     }
 
 }
