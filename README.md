@@ -107,45 +107,6 @@ ARcpr/
 
 ---
 
-## 開始使用
-
-### 環境需求
-
-- Unity 2021.x 或以上
-- Vuforia Engine（Unity Package Manager 安裝）
-- Android Build Support 或 iOS Build Support
-- Vuforia Developer 授權金鑰
-
-### 安裝步驟
-
-1. Clone 此專案
-   ```bash
-   git clone https://github.com/22611077a/ARcpr.git
-   ```
-
-2. 以 Unity Hub 開啟 `cpr/` 資料夾
-
-3. 至 [Vuforia Developer Portal](https://developer.vuforia.com/) 取得授權金鑰，填入 Unity 的 Vuforia 設定
-
-4. 設定後端位址（`gps.cs`）：
-   ```csharp
-   // 將 localhost 改為你的後端伺服器 IP
-   string url = "http://YOUR_SERVER_IP/connect.php";
-   ```
-
-5. 選擇目標平台（Android / iOS），Build & Run
-
----
-
-## AR 操作說明
-
-1. 將手機對準 **Vuforia Image Target**（AR 識別圖）
-2. 3D 模型出現後，依畫面指示操作
-3. 部分場景使用 **Virtual Button**：將手指放在識別圖上的指定區域即可觸發
-4. 支援語音指令控制（需麥克風權限）
-
----
-
 ## 授權
 
 本專案為學術研究用途，3D 模型與程式碼版權歸作者所有。
